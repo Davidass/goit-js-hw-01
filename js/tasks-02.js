@@ -1,5 +1,5 @@
 const total = 100;
-const ordered = 101;
+const ordered = 70;
 
 if (ordered <= total) {
   console.log('Заказ оформлен, с вами свяжиться менеджер');
