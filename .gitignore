@@ -107,8 +107,13 @@ dist
 .VS_code/
 
 #lesson
-.lesson-01/
-.lesson-02/
+/lesson-01
+/lesson-02
+
+#ESlint
+package-lock.json/
+package.json/
+
 
 
 
