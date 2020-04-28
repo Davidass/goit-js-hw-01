@@ -111,9 +111,10 @@ dist
 /lesson-02
 
 #ESlint
-/package-lock.json
-/package.json
-
+.package-lock.json
+.package.json
+*.json
+!.prettierrc.json
 
 
 

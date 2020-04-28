@@ -9,11 +9,11 @@ if (inputDroid === null || inputDroid == '') {
   alert('Ошибка ввода, повторите!');
 } else {
   totalPrice = pricePerDroid * inputDroid;
+  alert(
+    (totalPrice =
+      totalPrice > credits
+        ? 'Недостаточно средств на счету!'
+        : `Вы купили ${totalPrice} дроидов, на счету осталось ${credits -
+            totalPrice} кредитов`),
+  );
 }
-alert(
-  (totalPrice =
-    totalPrice > credits
-      ? 'Недостаточно средств на счету!'
-      : `Вы купили ${totalPrice} дроидов, на счету осталось ${credits -
-          totalPrice} кредитов`),
-);
